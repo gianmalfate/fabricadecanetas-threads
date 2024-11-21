@@ -1,4 +1,4 @@
-# Simulação de uma Fábrica de Canetas
+# 🖊️Simulação de uma Fábrica de Canetas
 
 Este repositório contém uma aplicação desenvolvida em C para simular uma fábrica de canetas utilizando **threads** com **Pthreads**, semáforos e variáveis de condição. A simulação abrange as atividades de fabricação, armazenamento e compra de canetas.
 
@@ -70,14 +70,14 @@ Significado:
 - 10: Quantidade comprada por interação.
 - 3: Intervalo entre compras (em segundos).
 
-### Funcionamento
+## Funcionamento
 A simulação segue um fluxo sincronizado entre as threads, garantindo que:
 - Não haja sobrecarga no depósito de canetas.
 - O envio de matéria-prima seja suspenso quando necessário.
 - As canetas sejam fabricadas e compradas conforme os parâmetros de entrada.
 Mensagens no terminal indicam o progresso e estado das operações, como fabricação, envio e compras.
 
-### Autores
+## Autores
 - Christian Bernard Simas Corrêa Gioia Ribeiro
 - Giancarlo Malfate Caprino
 - Italo de Matos Saldanha
